@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, serif;
+}
+
+:root{
+    --bs-dark-color: #1a1d20;
+    --bs-dark-primary: #1c1c1c ;
+    --bs-main-color: #eef;
+    --bs-primary-color: #c6c6c6;
+    --secondary-color: #29a9fd;
+    --bs-supporting-color: #c850c0;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: 'Times New Roman', serif;
+
+color: var(--bs-dark-color);
+
+}
+
+h1{
+font-size: 3.8rem;
+}
+
+h2{
+  line-height: 3rem;
+  font-size: 3.4rem;
+  font-weight: 600;
+
+}
+
+p{
+    margin: 0;
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--bs-dark-color);
+    letter-spacing: 0.07rem;
+    line-height: 1.55rem;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.common-heading1{
+  font-size: 2.8rem;
+  font-weight: 500;
+  letter-spacing: 0.01rem!important;
+}
+.common-title1{
+  margin-bottom: 4.2rem;
+}
+
+
+
+/*hero section start*/
+.hero-section .container{
+    display: grid;
+    place-content: center;
+    height: inherit;
+}
+
+.hero-photo {
+    max-width: 100%;
+    height: auto;
+    width: 70%;
+    border-radius: 2rem;
+}
+.bg-main{
+    height: 80vh;
+    position: relative;
+}
+ 
+/* adding color to Section and Navbar Using its class */
+.bg-color1{
+    background-color: var(--bs-dark-primary);
+}
+.nav-link{
+    color: var(--bs-main-color);
+}
+.text-light-grey{
+    color: var(--bs-main-color);
+}
+
+
+button,a{
+    font-size: 1.15rem!important;
+    letter-spacing: 0.03rem;
+    word-spacing: 0.01rem;
+}
+
+/* wavy css*/
+.custom-shape-divider-bottom-1692946512 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1692946512 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 72px;
+}
+
+.custom-shape-divider-bottom-1692946512 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/* Service Section */
+
+.services-section1{
+    padding: 5rem 0 5rem 0!important;
+}
+.icon-span1{
+   width: 2.5rem;
+   height: 2.5rem;
+   background-color: var(--bs-supporting-color);
+   color: var(--bs-main-color);
+}
+
+.card-box1:hover{
+    box-shadow: 5px 10px 10px var(--bs-primary-color);
+}
+
+/* testimonial css */ 
+.carousel-inner .card:hover{
+    background-color: var(--bs-main-color);
+    color: var(--bs-dark-color);
+}
+.carousel-inner .card:hover p{
+    color: var(--bs-dark-color);
+}
+/* giving color to stars*/
+.fa-star{
+    color: var(--bs-supporting-color);
+}
+.carousel-indicators{
+    bottom: -15%;
+}
+.carousel-indicators [data-bs-target]{
+    width: 0.7rem;
+    height: 0.7rem;
+    background-color: var(--secondary-color);
+}
+
+/* Contact section */
+.contact-section1{
+    position: relative;
+}
+
+.custom-shape-divider-top-1692989428 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1692989428 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 92px;
+}
+
+.custom-shape-divider-top-1692989428 .shape-fill {
+    fill: #FFFFFF;
+}
+
+
+.contact-section1 .common-title1{   /*  */
+    padding: 1rem;
+}
+.contact-section1 .form-section1{
+    width: 50%;
+}
+
+
+/* making website responsive */
+.navbar-toggler{
+    background-color: var(--bs-main-color);
+}
+
+@media screen and (max-width: 1200px){
+    
+}

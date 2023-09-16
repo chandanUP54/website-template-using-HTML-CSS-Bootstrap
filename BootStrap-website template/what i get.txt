@@ -1,0 +1,105 @@
+1.5rem = 24px
+
+1) d flex - 
+
+2) me/ms - are classes are used to add margin on left and right side of element respectively.
+
+  **navbar-nav me-auto mb-2 mb-lg-0  -->>>>> navbar-nav ms-auto mb-2 mb-lg-0**
+
+3) div with container  and div with container-fluid 
+
+4) 	.col-	     .col-md-	   .col-lg-
+        (for small)  (for Medium)  (for large)
+
+   12 grid system -->>>
+
+   .col-12 
+   .col-md-12
+   .col-lg-6
+
+5)Flex-->> 
+      Quickly manage the layout, alignment, and sizing of grid columns, 
+navigation, components, and more with a full suite of responsive flexbox utilities.
+ For more complex implementations, custom CSS may be necessary.
+Exp---->> 
+
+d-flex ->> d-flex justify-content-center/ d-flex align-items-start / 
+d-flex flex-column ->> set a vertical direction 
+d-flex flex-row ->> set a horizontal direction (the browser default)
+------------------------------------------------------------------------
+d-flex flex-column  justify-content-center  align-items-start
+
+
+6) mt-4 -->> top se 4 ka margin
+   mb-4 -->> bottom se 4 ka margin
+
+7) px- padding from x 
+   py- padding from y
+
+8) https://www.shapedivider.app/   -->> go for that wavy design of section 
+
+9) hr tag --->> horizontal line
+
+10) padding: 25px 50px 75px 100px;
+        top padding is 25px
+        right padding is 50px
+        bottom padding is 75px
+        left padding is 100px
+ padding: 5rem 0 3rem 0!important; (top right bottom left)
+
+11) search font awesome cdn 
+
+ https://cdnjs.com/libraries/font-awesome ---->>> copy cdn link of font-awesome  (paste it into index.html head)
+    
+    now go to https://fontawesome.com/ -->> you can search any item and use 
+
+12) shadow 
+13) to add arrow we have used d-flex 2 time because dono alignment humko middle me chahiye 
+14) g-5  -->> guter-5  do div ke bich space (div.row me dege section banate samay)
+
+15)      <div class="col-12 col-lg-6">
+             <div class="px-3 py-5 shadow">
+                  <img src="./3.jpg" alt="" width="150px" class="mx-3 img-fluid d-md-block d-none"> 
+             </div>
+         </div>
+
+d-md-block --->>>
+d-none ---->>>
+img-fluid ---->>>  img-fluid class makes an image responsive by automatically applying max-width: 100%; and height: auto; to it.
+m  -->>> margin on all sides
+mx-3 ---->>>>margin left and right (ml/mr) 
+my --->> margin top and bottom (mb/mt)
+
+p --->> padding on all sides
+px-3  ---->>>>padding left and right (pl/pr)
+py-5 ---->>>>padding top and bottom (pt/pb)
+ 
+d-block d-md-none -->> to hide on medium, large and extra large devices.
+
+d-none d-md-block --->>> to hide on small and extra-small devices.
+
+16) .contact-section1 .common-title1{  
+    padding: 5rem;
+     }
+--->>> contact-section1 ke andar wala common-title1
+
+17)form->form-control->
+
+
+//Making website responsive
+
+ 
+1).navbar-toggler{
+    background-color: var(--bs-main-color);
+  }
+2)order-lg-0 order-1  -->>  In hero section text and image upar niche hoge medium device me .
+3)text-center text-lg-start >>  To make hero section text in middle in medium/small divices
+4)mt-3 mt-lg-0 
+
+5)If the browser window is 600px or smaller, the background color will be lightblue:
+
+  @media only screen and (max-width: 600px) {
+    body {
+       background-color: lightblue;
+        }
+     }
